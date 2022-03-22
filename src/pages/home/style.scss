@@ -1,0 +1,26 @@
+.home-wrapper {
+  color: $textColor;
+
+  .bg {
+    position: absolute;
+    top: 80px;
+    right: 120px;
+    width: 280px;
+    height: 280px;
+    background: url('~@/assets/moon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+  }
+
+  .h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .grey-text {
+    font-size: 30px;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+  }
+}

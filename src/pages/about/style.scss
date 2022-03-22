@@ -1,0 +1,41 @@
+.about-wrapper {
+  position: relative;
+
+  .title {
+    color: #fd2155;
+    font-weight: 400;
+    font-size: 60px;
+  }
+
+  .text {
+    color: #fff;
+    line-height: 2;
+  }
+
+  .bg {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 140px;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: 'DancingScript';
+    user-select: none;
+  }
+
+  .icon {
+    margin-right: 8px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  .github {
+    background-image: url('~@/assets/github.svg');
+  }
+
+  .linkedin {
+    background-image: url('~@/assets/linkedin.svg');
+  }
+}

@@ -1,0 +1,10 @@
+@import '~minireset.css';
+
+body {
+  background: $bgColor;
+}
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url('~@/assets/DancingScript.ttf');
+}

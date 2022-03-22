@@ -1,0 +1,11 @@
+.tag {
+  color: #515152;
+  font-size: 20px;
+  font-family: 'DancingScript';
+
+  &__children {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
