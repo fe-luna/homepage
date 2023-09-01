@@ -10,8 +10,8 @@
   "license": "GPL",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": " cross-env NODE_ENV=production webpack --config ./build/webpack.prod.js",
-    "start": "webpack serve --config ./build/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack --config ./build/webpack.prod.js",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack serve --config ./build/webpack.dev.js",
     "prepare": "husky install"
   },
   "dependencies": {
