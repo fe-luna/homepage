@@ -1,15 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Tag from '@/components/tag'
 import './style'
 
 export default function About() {
-  const mail = ['feluna.zhang', 'gmail.com'].join('@')
-  const [isShowMail, setisShowMail] = useState(false)
   const toGithub = () => {
     window.open('https://github.com/fe-luna')
   }
   const toLinkedin = () => {
     window.open('https://www.linkedin.com/in/fe-luna')
+  }
+  const toResume = () => {
+    window.open('https://github.com/fe-luna/fe-luna/blob/main/chen.pdf')
   }
 
   return (
@@ -19,24 +20,18 @@ export default function About() {
       </Tag>
       <Tag tag='p'>
         <span className='text'>
-          I'm Luna, graduated from Xiamen University. <br /> Five-year work expreience, freelancers for the last two
-          years, focusing on front end development.
-          <br />
-        </span>
-        <span className='text'>
-          {'Contact me?  '}
-          {isShowMail ? (
-            <span>{`${mail}`}</span>
-          ) : (
-            <span onClick={setisShowMail.bind(null, true)}>Click me to get my email.</span>
-          )}
+          I'm Luna, more than 4 years of working experience as a web and data developer, and 1 year experience of college lecturer teaching web development.<br />
+          Competent in delivering high-quality web products leveraging the React tech stack, with a solid understanding of frontend engineering.<br />
+          <br/>
+          💪 I'm seeking a job as a Frontend Engineer (Singapore DP holder).<br />
+          <span onClick={toResume} style={{ cursor: 'pointer' }}>👉 Click to view my resume.</span>
         </span>
       </Tag>
       <Tag tag='div'>
         <div className='icon github' onClick={toGithub} />
         <div className='icon linkedin' onClick={toLinkedin} />
       </Tag>
-      <div className='bg'>FRONT-END</div>
+      <div className='bg'>FRONTEND</div>
     </div>
   )
 }

@@ -8,11 +8,11 @@ export default function Home() {
       <Tag tag='h1' style={{ marginTop: 100 }}>
         <h1 className='h1'>
           Hi, <br /> I'm Luna,
-          <br /> Web Engineer
+          <br /> a Frontend Engineer
         </h1>
       </Tag>
       <Tag tag='p' style={{ marginTop: 10 }}>
-        <div className='grey-text'>Front End Engineer</div>
+        <div className='grey-text'>Frontend Engineer</div>
       </Tag>
       <div className='bg' />
     </div>
