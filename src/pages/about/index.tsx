@@ -10,7 +10,7 @@ export default function About() {
     window.open('https://www.linkedin.com/in/fe-luna')
   }
   const toResume = () => {
-    window.open('https://github.com/fe-luna/fe-luna/blob/main/chen.pdf')
+    window.open('https://github.com/fe-luna/fe-luna/blob/main/Chen-Zhang.pdf')
   }
 
   return (
